@@ -1,0 +1,40 @@
+{
+  "name": "HANDValentine",
+  "version": "1.0.0",
+  "description": "NFT generator app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "build": "npm run build --prefix client",
+    "preinstall-client": "npm install --prefix client"
+  },
+  "keywords": [
+    "nft"
+  ],
+  "author": "Protasenya Valentina <Protasenya02@icloud.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.2.3",
+    "@pinata/sdk": "^1.1.23",
+    "assert": "^2.0.0",
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "canvas": "^2.8.0",
+    "config": "^3.3.7",
+    "console-browserify": "^1.2.0",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "https-browserify": "^1.0.0",
+    "mongoose": "^6.2.1",
+    "os-browserify": "^0.3.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
